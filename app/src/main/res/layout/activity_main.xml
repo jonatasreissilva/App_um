@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#ff5722">
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/Capturar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sign in via facebook or twitter"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_margin="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:background="@drawable/facebook"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Or"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_margin="20dp"/>
+
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:background="@drawable/twitter"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Or enter in your account info"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_margin="20dp"/>
+
+    <LinearLayout
+        android:layout_width="333dp"
+        android:layout_height="108dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <EditText
+            android:layout_width="329dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_person_dp"
+            android:background="#fff"/>
+
+        <EditText
+            android:layout_width="329dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_lock_dp"
+            android:background="#fff"/>
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="forgot your password?          need an account?"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Sign in"
+        android:textAllCaps="false"
+        android:textSize="50dp"
+        android:layout_margin="20"
+        />
+
+
+
+</LinearLayout>
